@@ -18,6 +18,18 @@ public class antropodos {
         int m2 = sc.nextInt();
         int s2 = sc.nextInt();
 
+        int insectes = 6;
+        int aracnidos = 8;
+        int crustacios = 10;
+        int miri = 2;
+        int miri2 = 4;
+
+        System.out.println(i * insectes);
+        System.out.println(a * aracnidos);
+        System.out.println(c * crustacios);
+        System.out.println(i * s1 * miri);
+        System.out.println(i * s2 * miri2);
+
         System.out.println();
     }
 }
