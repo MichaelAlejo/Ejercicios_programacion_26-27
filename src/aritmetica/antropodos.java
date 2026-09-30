@@ -18,7 +18,7 @@ public class antropodos {
         int m2 = sc.nextInt();
         int s2 = sc.nextInt();
 
-        int insectes = 6;
+        int insectes = i * 6;
         int aracnidos = 8;
         int crustacios = 10;
         int miri = 2;
