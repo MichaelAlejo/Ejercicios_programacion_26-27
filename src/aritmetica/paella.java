@@ -10,7 +10,6 @@ public class paella {
         float a = sc.nextFloat();
         float g = sc.nextFloat();
         float pers = (4);
-        float arr1= (0,5);
 
 
         float arr_tot = ((1 * c));
