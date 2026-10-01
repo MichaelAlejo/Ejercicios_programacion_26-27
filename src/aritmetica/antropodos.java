@@ -26,7 +26,5 @@ public class antropodos {
 
         System.out.println(insectes + aracnidos + crustacios + miri + miri2);
 
-
-        System.out.println();
     }
 }
