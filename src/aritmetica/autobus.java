@@ -13,3 +13,4 @@ public class autobus {
         System.out.println((a + b) * n);
     }
 }
+
