@@ -14,7 +14,7 @@ public class impar {
         boolean sen1 = (d2 % 2 == 1);
         boolean sen2 = (d3 % 2 == 1);
 
-        boolean res = (sen && sen1 && sen2);
+        boolean res = (sen && sen1 && sen2 || !sen && !sen1 && !sen2);
 
         System.out.println(res);
     }
