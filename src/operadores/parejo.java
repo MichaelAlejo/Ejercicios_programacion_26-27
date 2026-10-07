@@ -10,8 +10,12 @@ public class parejo {
         int d2 = sc.nextInt();
         int d3 = sc.nextInt();
 
+        boolean par = (d1 % 2 == 0);
+        boolean par1 = (d2 % 2 == 0);
+        boolean par2 = (d3 % 2 == 0);
 
+        boolean res = (!par && !par1 && par2 || !par && par1 && !par2 || par && !par1 && !par2);
 
-        System.out.println();
+        System.out.println(res);
     }
 }
