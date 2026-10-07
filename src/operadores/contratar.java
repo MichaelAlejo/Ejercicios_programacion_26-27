@@ -11,8 +11,11 @@ public class contratar {
         boolean d3 = sc.nextBoolean();
         int d4 = sc.nextInt();
 
-        boolean res = d1 != d3;
+        boolean java_yo = (d2 >= 1 );
+        boolean py_yo = (d4 >= 3);
 
-        System.out.println(res);
+        boolean acept = ((d1 && java_yo) || (d3 && py_yo));
+
+        System.out.println(acept);
     }
 }
