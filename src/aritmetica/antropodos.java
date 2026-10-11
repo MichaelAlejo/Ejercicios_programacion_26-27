@@ -18,9 +18,13 @@ public class antropodos {
         int m2 = sc.nextInt();
         int s2 = sc.nextInt();
 
+        //multiplicamos los bichos de cada uno por el numero de patas de cada bicho
         int insectes = (i * 6);
         int aracnidos = (a * 8);
         int crustacios = (c * 10);
+
+        //primero calculamos las patas por segmentos que tiene cada bicho
+        //despues lo multiplicamos por el numero de bichos que tenemos
         int miri = ((s1 * 2) * m1);
         int miri2 = ((s2 * 4)* m2);
 

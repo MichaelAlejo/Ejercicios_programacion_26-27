@@ -9,6 +9,7 @@ public class esquirols {
         int a = sc.nextInt();
         int n = sc.nextInt();
 
+        // hacemos una division para ver cuantas nueces sobra, y nos quedamos con lo restante de la operacion con el %
         System.out.println(n % a);
     }
 }

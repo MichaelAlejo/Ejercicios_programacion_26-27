@@ -10,6 +10,7 @@ public class autobus {
         Integer b = sc.nextInt();
         Integer n = sc.nextInt();
 
+        // calculamos lo buses tota, y multiplicamos por la capacidad de cada autobus.
         System.out.println((a + b) * n);
     }
 }

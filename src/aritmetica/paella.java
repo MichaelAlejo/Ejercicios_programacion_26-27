@@ -9,22 +9,19 @@ public class paella {
         int c = sc.nextInt();
         float a = sc.nextFloat();
         float g = sc.nextFloat();
-        float pers = (4);
-        float pers_arr = 0.50f;
-        float pers_gam = 0.25f;
 
+        float arros_total = (c * 0.5f) / 4;
+        float gambes_total = (c * 0.25f) / 4;
 
-        float arr_tot = ((pers_arr * c)/pers);
-        float gam_tot = ((pers_gam * c)/pers);
-        float eur_arr = (arr_tot * a);
-        float eur_gam = (gam_tot * g);
-        float total = (eur_arr + eur_gam);
+        float precio_arroz = (arros_total * a);
+        float precio_gamb = (gambes_total * g);
+        float precio_tot = (precio_arroz + precio_gamb);
 
-        System.out.println(arr_tot + " kg arros");
-        System.out.println(gam_tot + " kg gambes");
-        System.out.println(eur_arr + " euros arros");
-        System.out.println(eur_gam + " euros gambes");
-        System.out.println("TOTAL: " + total + " euros" );
+        System.out.println(arros_total + " kg arros");
+        System.out.println(gambes_total + " kg gambes");
+        System.out.println(precio_arroz + " euros arros");
+        System.out.println(precio_gamb + " euros gambes");
+        System.out.println("TOTAL: " + precio_tot + " euros");
 
     }
 }
