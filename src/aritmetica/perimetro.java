@@ -12,10 +12,13 @@ public class perimetro {
         int x2 = sc.nextInt();
         int y2 = sc.nextInt();
 
-        int ancho = x1 - x2;
-        int alto = y1 - y2;
-
-        System.out.println(2 * (ancho + alto));
+        // Restamos las coordenadas para calcular el ancho y el alto
+        int ancho_x = x1 - x2;
+        int alto_y = y1 - y2;
+        
+        // Sumamos el ancho y el alto y multiplicamos por 2 para calcular el perímetro
+        //utilizando la formula para calcular perimetro
+        System.out.println(2 * (ancho_x + alto_y));
 
 
     }
