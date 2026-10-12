@@ -11,7 +11,7 @@ public class contando_minutos {
 
         //primero las horas totales de un dia las restamos con la hora actual
         // pasamos estas horas a minutos y las restamos con los minutos actuales
-        //para calcular cuantas horas faltan
+        //para calcular cuantos minutos totales faltan
         int min_faltantes = (24 - H) * 60 - M;
 
         System.out.println(min_faltantes);
