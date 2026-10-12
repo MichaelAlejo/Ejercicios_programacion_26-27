@@ -15,10 +15,10 @@ public class Main {
         int h2 = sc.nextInt();
 
         // Comprobamos si un rectangulo termina antes de que empiece el otro horizontalmente
-        boolean separadosHorizontalmente = x1 + a1 < x2 || x2 + a2 < x1;
+        boolean separadosHorizontalmente = x1 + a1 <= x2 || x2 + a2 <= x1;
 
         // Comprobamos si un rectangulo termina antes de que empiece el otro verticalmente
-        boolean separadosVerticalmente = y1 + h1 < y2 || y2 + h2 < y1;
+        boolean separadosVerticalmente = y1 + h1 <= y2 || y2 + h2 <= y1;
 
         // Si estan separados en alguno de los dos ejes, no se solapan
         boolean seSolapan = !(separadosHorizontalmente || separadosVerticalmente);
