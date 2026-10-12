@@ -14,14 +14,14 @@ public class Main {
         int a2 = sc.nextInt();
         int h2 = sc.nextInt();
 
-        // Comprobamos si los rectangulos estan separados horizontalmente
-        boolean separados_horizontalmente = x1 + a1 < x2 || x2 + a2 < x1;
+        // Comprobamos si un rectangulo termina antes de que empiece el otro horizontalmente
+        boolean separadosHorizontalmente = x1 + a1 < x2 || x2 + a2 < x1;
 
-        // Comprobamos si los rectangulos estan separados verticalmente
-        boolean separados_verticalmente = y1 + h1 < y2 || y2 + h2 < y1;
+        // Comprobamos si un rectangulo termina antes de que empiece el otro verticalmente
+        boolean separadosVerticalmente = y1 + h1 < y2 || y2 + h2 < y1;
 
-        // Comprobamos si los rectangulos se solapan
-        boolean se_solapan = !(separadosHorizontalmente || separadosVerticalmente);
+        // Si estan separados en alguno de los dos ejes, no se solapan
+        boolean seSolapan = !(separadosHorizontalmente || separadosVerticalmente);
 
         System.out.println(seSolapan);
 
