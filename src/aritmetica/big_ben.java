@@ -11,6 +11,7 @@ public class big_ben {
 
         //sumamos la hora actual con las horas que queremos sumar
         // y lo dividimos entre 12 usando % porque queremos quedarnos lo restante de la operacion
+        // para que el resultado sea formato 12h
         System.out.println((H + N) % 12);
 
 
