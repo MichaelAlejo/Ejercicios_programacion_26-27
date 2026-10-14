@@ -1,4 +1,4 @@
-package ejercicicios_iniciales;
+package NF1.ejercicicios_iniciales;
 
 public class decimales {
     public static void main(String[] args) {

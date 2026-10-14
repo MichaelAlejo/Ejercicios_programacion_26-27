@@ -1,4 +1,4 @@
-package scanner;
+package NF1.scanner;
 
 import java.util.Scanner;
 
