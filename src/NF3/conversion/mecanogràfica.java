@@ -12,7 +12,9 @@ public class mecanogràfica {
         int e = sc.nextInt();
         int t = sc.nextInt();
 
+        int ct = (c - e);
+        int prec = (ct / c) * 100;
 
-        System.out.println();
+        System.out.println(prec);
     }
 }
