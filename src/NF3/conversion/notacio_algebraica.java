@@ -11,6 +11,10 @@ public class notacio_algebraica {
         int c = sc.nextInt();
         int f = sc.nextInt();
 
+        char c1 = (char)c;
+
+
+        System.out.println(c1);
 
 
     }
