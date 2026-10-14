@@ -14,9 +14,9 @@ public class decimal_parells_o_cap {
         int d2e = (int)d2;
         int d3e = (int)d3;
 
-        boolean parelld1 = d1e % 2 == 1;
-        boolean parelld2 = d2e % 2 == 1;
-        boolean parelld3 = d3e % 2 == 1;
+        boolean parelld1 = d1e % 2 == 0;
+        boolean parelld2 = d2e % 2 == 0;
+        boolean parelld3 = d3e % 2 == 0;
 
         boolean res = (!parelld1 && !parelld2 && !parelld3 || parelld1 && parelld2 && parelld3);
 
