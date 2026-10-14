@@ -1,4 +1,4 @@
-package ejercicicios_iniciales;
+package NF1.ejercicicios_iniciales;
 
 public class j_con_asteriscos {
     public static void main(String[] args) {
