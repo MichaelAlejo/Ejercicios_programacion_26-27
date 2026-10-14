@@ -17,5 +17,10 @@ public class un_decimal_parell {
         boolean parelld1 = d1e % 2 == 0;
         boolean parelld2 = d2e % 2 == 0;
         boolean parelld3 = d3e % 2 == 0;
+
+        boolean res = (!parelld1 && !parelld2 && parelld3 || !parelld1 && parelld2 && !parelld3 || parelld1 && !parelld2 && !parelld3);
+
+        System.out.println(res);
+
     }
 }

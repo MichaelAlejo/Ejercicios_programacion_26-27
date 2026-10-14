@@ -13,8 +13,6 @@ public class mecanogràfica {
         int t = sc.nextInt();
 
 
-        int precicion = ;
-
-        System.out.println(precicion);
+        System.out.println();
     }
 }
