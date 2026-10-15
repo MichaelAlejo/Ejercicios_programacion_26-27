@@ -6,14 +6,12 @@ public class primer_decimal_parell {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
-        int c = sc.nextInt();
-        int f = sc.nextInt();
+        float d1 = sc.nextFloat();
 
-        int a_char = c + 96;
+        int parelld1 = (int)d1 % 2 == 0;
 
-        System.out.print((char)a_char);
-        System.out.print(f);
 
+        System.out.println(parelld1);
 
     }
 }
