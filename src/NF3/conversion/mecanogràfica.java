@@ -1,5 +1,3 @@
-package NF3.conversion;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,13 +6,18 @@ public class mecanogràfica {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
-        int c = sc.nextInt();
-        int e = sc.nextInt();
-        int t = sc.nextInt();
+        int ct = sc.nextInt();
+        int ce = sc.nextInt();
+        int ts = sc.nextInt();
 
-        int ct = (c - e);
-        int prec = (ct / c) * 100;
+        int cc = ct - ce;
+        float precision = (cc/(float)ct) * 100;
+        System.out.println((int)precision);
 
-        System.out.println(prec);
+        float  velocidad_palabras = ct/5f;
+        float seg_a_min = ts/60f;
+
+        float velocidad_total = velocidad_palabras/seg_a_min;
+        System.out.println((int)velocidad_total);
     }
 }

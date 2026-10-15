@@ -1,5 +1,3 @@
-package NF3.conversion;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,10 +9,10 @@ public class notacio_algebraica {
         int c = sc.nextInt();
         int f = sc.nextInt();
 
-        char c1 = (char)c;
+        int a_char = c + 96;
 
-
-        System.out.println(c1);
+        System.out.print((char)a_char);
+        System.out.print(f);
 
 
     }
