@@ -8,10 +8,12 @@ public class primer_decimal_parell {
 
         float d1 = sc.nextFloat();
 
-        //int parelld1 = (int)d1 % 2 == 0;
+        int parelld1 = (int)(d1 * 10) % 10;
+
+        boolean res = parelld1 % 2 == 0;
 
 
-        //System.out.println(parelld1);
+        System.out.println(res);
 
     }
 }
