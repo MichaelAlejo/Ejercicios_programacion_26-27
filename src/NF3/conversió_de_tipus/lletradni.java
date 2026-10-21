@@ -15,9 +15,10 @@ public class lletradni {
 
         int num1_mod = num_ent1 % 23;
 
+        String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+
         System.out.println(num1_mod);
 
-        String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
 
 
     }
