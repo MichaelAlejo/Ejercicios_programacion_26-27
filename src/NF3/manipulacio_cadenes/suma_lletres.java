@@ -14,7 +14,6 @@ public class suma_lletres {
         char p4 = p.charAt(3);
         char p5 = p.charAt(4);
 
-
         System.out.println(p1 + p2 + p3 + p4 + p5);
     }
 }
