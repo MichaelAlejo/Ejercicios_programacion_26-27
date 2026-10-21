@@ -11,9 +11,14 @@ public class lletradni {
         String num1 = P1.substring(0,8);
         int num_ent1 = Integer.parseInt(num1);
 
+        String letra_dni = P1.substring(8);
+
         int num1_mod = num_ent1 % 23;
 
         System.out.println(num1_mod);
+
+        String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+
 
     }
 }
