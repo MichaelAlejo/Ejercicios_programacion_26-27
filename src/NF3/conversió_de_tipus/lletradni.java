@@ -20,7 +20,7 @@ public class lletradni {
 
         boolean coincide = letra_calculada.equals(letra_dni);
 
-        System.out.println(letra_calculada);
+        System.out.println(coincide);
 
     }
 }
