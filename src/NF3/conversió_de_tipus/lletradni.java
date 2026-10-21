@@ -17,6 +17,9 @@ public class lletradni {
 
         String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
 
+        String letra_calculada = letras.substring(num1_mod, num1_mod + 1);
+
+
         System.out.println(num1_mod);
 
 
