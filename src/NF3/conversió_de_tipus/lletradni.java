@@ -21,7 +21,7 @@ public class lletradni {
         boolean coincide = letra_calculada.equals(letra_dni);
 
 
-        System.out.println(coincide);
+        System.out.println(letra_calculada);
 
 
 
