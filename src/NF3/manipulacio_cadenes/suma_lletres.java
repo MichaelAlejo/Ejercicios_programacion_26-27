@@ -14,12 +14,7 @@ public class suma_lletres {
         char p4 = p.charAt(3);
         char p5 = p.charAt(4);
 
-        int p1n = (int)p1;
-        int p2n = (int)p2;
-        int p3n = (int)p3;
-        int p4n = (int)p4;
-        int p5n = (int)p5;
 
-        System.out.println(p1n + p2n + p3n + p4n + p5n);
+        System.out.println(p1 + p2 + p3 + p4 + p5);
     }
 }
