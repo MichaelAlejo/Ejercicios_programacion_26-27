@@ -10,7 +10,6 @@ public class lletradni {
 
         String num1 = P1.substring(0,8);
         int num_ent1 = Integer.parseInt(num1);
-
         String letra_dni = P1.substring(8);
 
         int num1_mod = num_ent1 % 23;
@@ -19,8 +18,10 @@ public class lletradni {
 
         String letra_calculada = letras.substring(num1_mod, num1_mod + 1);
 
+        boolean coincide = letra_calculada.equals(letra_dni);
 
-        System.out.println(num1_mod);
+
+        System.out.println(coincide);
 
 
 
