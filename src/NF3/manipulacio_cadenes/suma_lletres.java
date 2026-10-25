@@ -7,7 +7,9 @@ public class suma_lletres {
         sc.useLocale(Locale.ENGLISH);
 
         String p = sc.nextLine();
-
+        
+        // Extraemos cada carácter de la cadena de texto
+        // indicando su posición, empezando desde la posición 0
         char p1 = p.charAt(0);
         char p2 = p.charAt(1);
         char p3 = p.charAt(2);
