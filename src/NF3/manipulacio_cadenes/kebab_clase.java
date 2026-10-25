@@ -8,8 +8,10 @@ public class kebab_clase {
 
         String pal = sc.nextLine();
 
+        //pasamos a minusculas
         String palm = pal.toLowerCase();
-
+        
+        //remplazamos todoslos espacios por -
         String espacios =  palm.replace(" " , "-");
 
         System.out.println(espacios);
