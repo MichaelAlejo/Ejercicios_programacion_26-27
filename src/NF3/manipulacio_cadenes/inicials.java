@@ -14,6 +14,7 @@ public class inicials {
         String AM = A.toUpperCase();
 
         // Extraemos el primer carácter de NM 
+        //tambien se puede hacer con substring
         char NF = NM.charAt(0);
         char AF = AM.charAt(0);
 
