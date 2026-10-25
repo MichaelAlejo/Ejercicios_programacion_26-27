@@ -11,7 +11,8 @@ public class treurebrossadec {
 
         String num1 = P1.substring(1);
         String num2 = P2.substring(0,P2.length() -2);
-
+        
+        //los pasamos a float
         float num1_ent = Float.parseFloat(num1);
         float num2_ent = Float.parseFloat(num2);
 
