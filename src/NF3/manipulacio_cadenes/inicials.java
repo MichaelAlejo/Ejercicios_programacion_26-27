@@ -8,10 +8,12 @@ public class inicials {
 
         String N = sc.next();
         String A = sc.next();
-
+        
+        //pasamos todo a mayuscula
         String NM = N.toUpperCase();
         String AM = A.toUpperCase();
 
+        // Extraemos el primer carácter de NM 
         char NF = NM.charAt(0);
         char AF = AM.charAt(0);
 
