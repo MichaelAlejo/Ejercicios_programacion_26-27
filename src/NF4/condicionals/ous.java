@@ -12,13 +12,14 @@ public class ous {
         if (huevos % 24 == 0) {
             System.out.println((huevos / 2) + " " + (huevos % 0));
         }
-        else if () {
-           int hueveras = huevos / 24 + 1;
-           int huevosrest = 24 - (huevos % 4);
-            System.out.println(hueveras + " " + huevosrest);
+        else if (huevos == 0) {
+            System.out.println((huevos / 2) + " " + (huevos % 0));
+
         }
         else {
-            System.out.println((huevos / 2) + " " + (huevos % 0));
+            int hueveras = huevos / 24 + 1;
+            int huevosrest = 24 - (huevos % 4);
+            System.out.println(hueveras + " " + huevosrest);
         }
 
     }
