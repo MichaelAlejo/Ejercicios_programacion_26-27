@@ -10,7 +10,7 @@ public class ous {
         int huevos = sc.nextInt();
 
         if (huevos % 24 == 0) {
-            System.out.println((huevos / 2) + " " + (huevos % 0));
+            System.out.println((huevos / 24) + " " + (huevos % 24));
         }
         else if (huevos == 0) {
             System.out.println((huevos / 2) + " " + (huevos % 0));
