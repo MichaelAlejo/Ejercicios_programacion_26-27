@@ -11,8 +11,6 @@ public class llumsh {
         boolean llums2 = sc.nextBoolean();
         boolean llums3 = sc.nextBoolean();
 
-        if ( ) {
 
-        }
     }
 }
