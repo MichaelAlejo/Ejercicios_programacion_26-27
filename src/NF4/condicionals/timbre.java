@@ -9,7 +9,7 @@ public class timbre {
 
         int d1 = sc.nextInt();
         int d2 = sc.nextInt();
-        String d3 = sc.nextLine();
+        String d3 = sc.next();
 
         if (d2 == 00 && d3.equals("automatic"))  {
             System.out.println("RING");
@@ -23,7 +23,5 @@ public class timbre {
         else {
             System.out.println("---");
         }
-
-
     }
 }
