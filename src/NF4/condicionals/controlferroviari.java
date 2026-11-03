@@ -1,4 +1,3 @@
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,23 +10,24 @@ public class controlferroviari {
         boolean freno = sc.nextBoolean();
         int orden = sc.nextInt();
 
-        if (orden == 1 && color.equals("verd")) {
-            System.out.println("Estat del semàfor (vermell, ambar, verd): ");
-            System.out.println("Fre d'emergència? (true, false): ");
-            System.out.println("Ordres del centre de control (0, 1, 2): ");
-            System.out.println("El tren s'ha d'aturar!!");
-        }
-       else if (orden == 2 && color.equals("verd")) {
-            System.out.println("Estat del semàfor (vermell, ambar, verd): ");
-            System.out.println("Fre d'emergència? (true, false): ");
-            System.out.println("Ordres del centre de control (0, 1, 2): ");
-            System.out.println("El tren s'ha d'aturar!!");
-        }
-        else if (orden == 0 && color.equals("vermell")) {
+        if (color.equals("verd") && freno == false && orden == 0) {
             System.out.println("Estat del semàfor (vermell, ambar, verd): ");
             System.out.println("Fre d'emergència? (true, false): ");
             System.out.println("Ordres del centre de control (0, 1, 2): ");
             System.out.println("El tren pot continuar");
         }
+        else if (color.equals("àmbar") && freno == false && orden == 0) {
+            System.out.println("Estat del semàfor (vermell, ambar, verd): ");
+            System.out.println("Fre d'emergència? (true, false): ");
+            System.out.println("Ordres del centre de control (0, 1, 2): ");
+            System.out.println("El tren pot continuar");
+        }
+        else {
+            System.out.println("Estat del semàfor (vermell, ambar, verd): ");
+            System.out.println("Fre d'emergència? (true, false): ");
+            System.out.println("Ordres del centre de control (0, 1, 2): ");
+            System.out.println("El tren s'ha d'aturar!!");
+        }
+
     }
 }
