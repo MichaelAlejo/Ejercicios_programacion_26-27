@@ -11,6 +11,7 @@ public class calculadora {
         int d2 = sc.nextInt();
         int op = sc.nextInt();
 
+        //depende de la opcion escogida hace x operacion
         switch (op) {
             case 1:
                 System.out.println("MENU:");
