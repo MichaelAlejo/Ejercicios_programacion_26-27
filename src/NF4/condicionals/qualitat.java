@@ -13,6 +13,8 @@ public class qualitat {
         boolean E = sc.nextBoolean();
         boolean L = sc.nextBoolean();
 
+        // en todos los casos comparo si la pieza es true es que esta correcto
+        // y si es false es que no lo esta, entonces pinta una linea o otra
         if (T == true){
             System.out.println("L'estat del txasis es: correcte");
         }
