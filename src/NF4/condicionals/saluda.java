@@ -9,6 +9,10 @@ public class saluda {
 
         String idioma = sc.nextLine();
 
+        //Miramos si lo escaneado tiene relacion con el
+        //idioma introducido comparandolos con el .equals
+        //y dependiendo del idioma pintamos su respectivo saludo
+        //y si el idioma no existe devuelve el idioma y una frase
         if (idioma.equals("French")) {
             System.out.println("Bonjour");
         }
