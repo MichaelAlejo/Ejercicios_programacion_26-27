@@ -20,7 +20,8 @@ public class ous {
             // y sumamomos uno para que el codigo redondee autimaticamente
             // a las hueveras que hacen falta sin los decimales
             int hueveras = huevos / 24 + 1;
-            // Calculamos cuántos huevos faltan para llenar la última huevera.
+            // Calculamos cuántos huevos hay, y los restamos
+            // por los huevos que caben en una huevera para saber cuantos faltan para llenar la última huevera.
             int huevosrest = 24 - (huevos % 24);
             System.out.println(hueveras + " " + huevosrest);
         }
