@@ -12,6 +12,7 @@ public class futbol {
         int pa = sc.nextInt();
         int gfa = sc.nextInt();
         int gca = sc.nextInt();
+        sc.nextLine();
 
         int gb = sc.nextInt();
         int eb = sc.nextInt();
@@ -19,14 +20,17 @@ public class futbol {
         int gfb = sc.nextInt();
         int gcb = sc.nextInt();
 
-        int gols_totalsA = (ga * 3) + ea + gfa;
-        int gols_totalsB = (gb * 3) + eb + gfb;
+        int gols_totalsA = (ga * 3) + ea;
+        int gols_totalsB = (gb * 3) + eb;
 
         if (gols_totalsA > gols_totalsB){
-            System.out.println(gols_totalsA > gols_totalsB);
+            System.out.println(gols_totalsA >= gols_totalsB);
         }
         else if (gols_totalsA < gols_totalsB) {
-            System.out.println(gols_totalsA < gols_totalsB);
+            System.out.println(gols_totalsA <= gols_totalsB);
+        }
+        else {
+            System.out.println((gfa - gca)<(gfb - gcb));
         }
     }
 }
