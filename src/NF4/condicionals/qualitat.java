@@ -43,7 +43,7 @@ public class qualitat {
         else {
             System.out.println("L'estat dels llums és: defectuos");
         }
-        if (T && R && M && E && L == true) {
+        if ((T && R && M && E && L) == true) {
             System.out.println("L'estat general del cotxe es: correcte");
         }
         else {
