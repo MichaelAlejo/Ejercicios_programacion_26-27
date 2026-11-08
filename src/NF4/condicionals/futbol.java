@@ -19,8 +19,8 @@ public class futbol {
         int gfb = sc.nextInt();
         int gcb = sc.nextInt();
 
-        int gols_totalsA = (ga * 3) + ea;
-        int gols_totalsB = (gb * 3) + eb;
+        int gols_totalsA = (ga * 3) + ea + gfa;
+        int gols_totalsB = (gb * 3) + eb + gfb;
 
         if (gols_totalsA > gols_totalsB){
             System.out.println(gols_totalsA > gols_totalsB);
