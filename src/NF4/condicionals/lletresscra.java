@@ -9,6 +9,8 @@ public class lletresscra {
 
         String letra = sc.nextLine();
 
+        //comproamos la letra introducida
+        // y dependiendo de la letra devolvemos un valor
         if (letra.equals("A") || letra.equals("E") || letra.equals("I") || letra.equals("O") || letra.equals("U") || letra.equals("L") || letra.equals("N") || letra.equals("R") || letra.equals("S") || letra.equals("T")) {
             System.out.println("1");
         }
