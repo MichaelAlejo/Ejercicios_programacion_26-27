@@ -30,7 +30,7 @@ public class futbol {
             System.out.println(gols_totalsA <= gols_totalsB);
         }
         else {
-            System.out.println((gfa - gca)<(gfb - gcb));
+            System.out.println((gfa - gca)>(gfb - gcb));
         }
     }
 }
