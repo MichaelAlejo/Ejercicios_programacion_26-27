@@ -27,10 +27,10 @@ public class futbol {
         //y los comparamos, si el equipo A tiene mas puntos entra en el primero
         //y pinta true, y si no entra en el segundo condicional y pinta false
         if (gols_totalsA > gols_totalsB){
-            System.out.println(gols_totalsA >= gols_totalsB);
+            System.out.println(gols_totalsA > gols_totalsB);
         }
         else if (gols_totalsA < gols_totalsB) {
-            System.out.println(gols_totalsA <= gols_totalsB);
+            System.out.println(gols_totalsA > gols_totalsB);
         }
         //y si tienen los mismos puntos se calcula la diferencia
         //restando los goles a favor y contra de cada equipo y comparandolos
