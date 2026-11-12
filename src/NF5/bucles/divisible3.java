@@ -9,11 +9,12 @@ public class divisible3 {
 
         int A = sc.nextInt();
         int B = sc.nextInt();
-        int contador = A;
 
-        while (contador<B){
-            System.out.print(contador);
-            contador += 1;
+        while (A <= B){
+            if (A % 3 == 0){
+                System.out.println(A);
+            }
+            A ++;
         }
     }
 }
