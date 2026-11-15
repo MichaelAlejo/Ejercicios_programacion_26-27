@@ -41,5 +41,14 @@ public class ppt {
             part = sc.nextLine();
 
         }
+        if (j1 == 3){
+            System.out.println(1);
+        }
+        else if (j2 == 3){
+            System.out.println(2);
+        }
+        else {
+            System.out.println("-");
+        }
     }
 }
