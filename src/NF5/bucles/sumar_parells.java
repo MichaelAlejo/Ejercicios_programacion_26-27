@@ -15,6 +15,7 @@ public class sumar_parells {
         int fin = 0;
 
         while (contador < num){
+            n2 = sc.nextInt();
             if (n2 % 2 == 0){
                 fin = fin + n2;
             }
