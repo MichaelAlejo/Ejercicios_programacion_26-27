@@ -18,6 +18,10 @@ public class ppt {
                 if (j2m.equals("%")){
                     j1++;
                 }
+                else if (j1m.equals("@") && j2m.equals("@")){
+                    j1 = j1 +0;
+                    j2 = j2 + 0;
+                }
                 else {
                     j2++;
                 }
@@ -25,6 +29,10 @@ public class ppt {
             if (j1m.equals("%")){
                 if (j2m.equals("#")){
                     j1++;
+                }
+                else if (j1m.equals("%") && j2m.equals("%")){
+                    j1 = j1 +0;
+                    j2 = j2 + 0;
                 }
                 else {
                     j2++;
@@ -34,6 +42,10 @@ public class ppt {
                 if (j2m.equals("@")){
                     j1++;
                 }
+                else if (j1m.equals("#") && j2m.equals("#")){
+                    j1 = j1 +0;
+                    j2 = j2 + 0;
+                }
                 else {
                     j2++;
                 }
@@ -41,10 +53,10 @@ public class ppt {
             part = sc.nextLine();
 
         }
-        if (j1 == 3){
+        if (j1 > j2){
             System.out.println(1);
         }
-        else if (j2 == 3){
+        else if (j2 > j1){
             System.out.println(2);
         }
         else {
