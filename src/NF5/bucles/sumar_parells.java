@@ -15,18 +15,12 @@ public class sumar_parells {
         int fin = 0;
 
         while (contador < num){
-
             if (n2 % 2 == 0){
                 fin = fin + n2;
-                n2 = sc.nextInt();
-                contador ++;
             }
-            else {
-                n2 = sc.nextInt();
-                contador ++;
-            }
+            contador ++;
+            n2 = sc.nextInt();
         }
         System.out.println(fin);
-
     }
 }
