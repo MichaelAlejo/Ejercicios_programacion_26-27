@@ -14,7 +14,7 @@ public class sumar_parells {
         int contador = 0;
         int fin = 0;
 
-        while (contador <= num){
+        while (contador < num){
 
             if (n2 % 2 == 0){
                 fin = fin + n2;
@@ -26,7 +26,7 @@ public class sumar_parells {
                 contador ++;
             }
         }
-
+        System.out.println(fin);
 
     }
 }
