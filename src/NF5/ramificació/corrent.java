@@ -14,20 +14,20 @@ public class corrent {
             if (n1 < n2){
                 n1 = n2;
                 n2 = sc.nextInt();
-                if(n2 != 0) {
-                    if (n1>n2){
-                        n1 = n2;
-                        n2 = sc.nextInt();
-                    }
-                    else {
-                        res = "INCORRECTE";
-                        break;
-                    }
-                }
-            }
+         }
             else {
                 res = "INCORRECTE";
                 break;
+            }
+            if(n2 != 0) {
+                if (n1>n2){
+                    n1 = n2;
+                    n2 = sc.nextInt();
+                }
+                else {
+                    res = "INCORRECTE";
+                    break;
+                }
             }
         }
         System.out.println(res);
