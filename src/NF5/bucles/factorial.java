@@ -1,4 +1,3 @@
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,12 +7,11 @@ public class factorial {
         sc.useLocale(Locale.ENGLISH);
 
         int n1 = sc.nextInt();
-        int contador = n1;
         int fin = 1;
 
-        while(contador > 0){
-            fin = fin * contador;
-            contador--;
+        while(n1 > 0){
+            fin = fin * n1;
+             n1--;
         }
         System.out.println(fin);
     }
