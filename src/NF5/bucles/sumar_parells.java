@@ -7,21 +7,20 @@ public class sumar_parells {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
+        int tot = sc.nextInt();
         int n1 = sc.nextInt();
-        sc.nextLine();
-        int n2 = sc.nextInt();
-        int num = n1;
-        int contador = 0;
-        int fin = 0;
+        int res = 0;
+        int cont = 1;
 
-        while (contador < num){
-            n2 = sc.nextInt();
-            if (n2 % 2 == 0){
-                fin = fin + n2;
+        while(tot >= cont){
+            cont++;
+            if (n1 % 2 == 0){
+                res = res + n1;
             }
-            contador ++;
-            n2 = sc.nextInt();
+            if (tot >= cont){
+                n1 = sc.nextInt();
+            }
         }
-        System.out.println(fin);
+        System.out.println(res);
     }
 }
