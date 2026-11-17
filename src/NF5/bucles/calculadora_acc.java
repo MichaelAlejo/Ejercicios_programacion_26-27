@@ -7,28 +7,35 @@ public class calculadora_acc {
         sc.useLocale(Locale.ENGLISH);
 
         String op = sc.next();
-        float n1 = sc.nextFloat();
         float res = 0.0f;
 
-        while(!op.equals("END")){
-            switch (op){
-                case "+":
-                    res = res + n1;
-                    break;
-                case "-":
-                    res = res - n1;
-                    break;
-                case "*":
-                    res = res * n1;
-                    break;
-                case "/":
-                    res = res / n1;
-                    break;
-            }
-            System.out.println(res);
-            op = sc.next();
-            n1 = sc.nextFloat();
-        }
+        if (!op.equals("END")) {
+            float n1 = sc.nextFloat();
 
+            while (!op.equals("END")) {
+                switch (op) {
+                    case "+":
+                        res = res + n1;
+                        break;
+                    case "-":
+                        res = res - n1;
+                        break;
+                    case "*":
+                        res = res * n1;
+                        break;
+                    case "/":
+                        res = res / n1;
+                        break;
+                }
+                System.out.println(res);
+                op = sc.next();
+                if (!op.equals("END")) {
+                    n1 = sc.nextFloat();
+                }
+            }
+        }
+        else {
+            System.out.println(res);
+        }
     }
 }
