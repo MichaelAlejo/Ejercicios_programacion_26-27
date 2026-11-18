@@ -8,12 +8,14 @@ public class fibonacci {
         sc.useLocale(Locale.ENGLISH);
 
         int n1 = sc.nextInt();
-        int contador = 1;
-        int fin = 0;
+        int contador = 0;
+        int sig = 1;
 
-        while(fin <= n1){
-            fin = contador + fin;
-
+        while(n1 > contador){
+            if (n1 == 0){
+                System.out.println(sig);
+                contador++;
+            }
         }
 
     }
