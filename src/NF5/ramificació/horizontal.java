@@ -9,18 +9,18 @@ public class horizontal {
 
         int filas = sc.nextInt();
         int columna = sc.nextInt();
-        int cont_columna = 1;
-        int cont_fila = -1;
+        int cont_fila = 0;
 
         reiniciar:
         while (filas > cont_fila){
-            cont_fila++;
             int n1 = sc.nextInt();
+            int cont_columna = 1;
             while (columna > cont_columna) {
                 cont_columna++;
                 int n2 = sc.nextInt();
                 if (n1 != n2){
                 sc.nextLine();
+                cont_fila++;
                 continue reiniciar;
                 }
             }
