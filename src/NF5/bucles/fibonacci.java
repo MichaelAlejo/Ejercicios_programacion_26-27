@@ -7,16 +7,20 @@ public class fibonacci {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
-        int n1 = sc.nextInt();
-        int contador = 0;
-        int sig = 1;
+        int N = sc.nextInt();
+        int n1 = 0;
+        int n2 = 1;
+        int cont = 0;
 
-        while(n1 > contador){
-            if (n1 == 0){
-                System.out.println(sig);
-                contador++;
-            }
+        while (N > cont){
+            int n3 = n1 + n2;
+            System.out.print(n3 + " " );
+           n1 = n2;
+           n2 = n3;
+           cont ++;
+
         }
+
 
     }
 }
