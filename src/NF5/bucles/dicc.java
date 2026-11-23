@@ -7,7 +7,7 @@ public class dicc {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
-        String frase = sc.next();
+        String frase = sc.nextLine();
 
         System.out.println("class Dictionari {");
         System.out.println("    String[] words = {");
