@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class divisible3 {
+public class a4divisible3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
