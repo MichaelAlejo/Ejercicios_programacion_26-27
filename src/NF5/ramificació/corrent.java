@@ -10,17 +10,21 @@ public class corrent {
         int n2 = sc.nextInt();
         String res = "CORRECTE";
 
-        while (n2 != 0){
-            if (n1 < n2){
+        // Repetimos mientras no encontremos el valor 0, que indica el final de la secuencia.
+        while (n2 != 0) {
+            // Comprobamos que el siguiente número sea mayor que el anterior.
+            if (n1 < n2) {
                 n1 = n2;
                 n2 = sc.nextInt();
-         }
+            }
             else {
+                // Si no es mayor, la secuencia deja de ser correcta.
                 res = "INCORRECTE";
                 break;
             }
-            if(n2 != 0) {
-                if (n1>n2){
+            // Si todavía quedan números, comprobamos que ahora sea menor que el anterior.
+            if (n2 != 0) {
+                if (n1 > n2) {
                     n1 = n2;
                     n2 = sc.nextInt();
                 }
@@ -30,6 +34,8 @@ public class corrent {
                 }
             }
         }
+
+        // Mostramos si la secuencia cumple el orden esperado.
         System.out.println(res);
     }
 }
