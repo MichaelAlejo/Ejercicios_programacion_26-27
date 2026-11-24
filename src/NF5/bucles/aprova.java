@@ -1,4 +1,3 @@
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,19 +9,19 @@ public class aprova {
         int n = sc.nextInt();
         int cont = 0;
 
-        while (n > cont){
+        // Repetimos hasta procesar todos los alumnos.
+        while (n > cont) {
             String nombre = sc.next();
             String apellido = sc.next();
             float nota = sc.nextFloat();
             cont++;
-
-            if (nota >= 5.0f){
+            // Comprobamos si la nota es igual o superior a 5.
+            if (nota >= 5.0f) {
                 System.out.println(nombre + " " + apellido + ": aprova");
             }
             else {
                 System.out.println(nombre + " " + apellido + ": suspèn");
             }
         }
-
     }
 }
