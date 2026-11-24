@@ -18,9 +18,7 @@ public class fulln {
             while (columna > contc) {
                 int num = sc.nextInt();
                 // Mostramos cada número de la fila.
-                if (columna > contc) {
-                    System.out.print(num + " ");
-                }
+                System.out.print(num + " ");
                 // Sumamos los valores para calcular la media de la fila.
                 tot = tot + num;
                 contc++;
