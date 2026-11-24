@@ -1,4 +1,3 @@
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,8 +10,11 @@ public class interval {
         int B = sc.nextInt();
         int contador = A;
 
-        while (contador<B){
+        // Repetimos el bucle mientras el contador sea menor que B.
+        while (contador < B) {
+            // Mostramos el número actual sin saltar de línea.
             System.out.print(contador);
+            // Aumentamos el contador en 1 para pasar al siguiente número.
             contador += 1;
         }
     }
