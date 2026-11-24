@@ -1,4 +1,3 @@
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,8 +9,11 @@ public class repeatX {
         int A = sc.nextInt();
         int contador = 0;
 
-        while (contador<A){
+        // Repetimos el bucle mientras el contador sea menor que A.
+        while (contador < A) {
+            // Mostramos el valor de A en cada repetición.
             System.out.print(A);
+            // Aumentamos el contador para controlar cuántas veces se repite.
             contador += 1;
         }
     }
