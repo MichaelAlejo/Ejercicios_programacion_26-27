@@ -1,4 +1,3 @@
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,11 +9,15 @@ public class divisible3 {
         int A = sc.nextInt();
         int B = sc.nextInt();
 
-        while (A <= B){
-            if (A % 3 == 0){
+        // Repetimos el bucle mientras A sea menor o igual que B.
+        while (A <= B) {
+            // Comprobamos si A es divisible entre 3, es decir, si su resto es 0.
+            if (A % 3 == 0) {
+                // Si es divisible entre 3, mostramos su valor.
                 System.out.println(A);
             }
-            A ++;
+            // Aumentamos A en 1 para comprobar el siguiente número.
+            A++;
         }
     }
 }
