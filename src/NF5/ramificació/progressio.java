@@ -11,21 +11,19 @@ public class progressio {
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
         int con = 2;
-        int serie = n2 - n1;
+        int serie = n2 - n1; // Calcula la diferencia entre los dos primeros números.
 
-        while(N > con){
+        while (N > con) { // Comprueba los números restantes de la secuencia.
             con++;
-            n1 = n2;
-            n2 = sc.nextInt();
+            n1 = n2; // Actualiza el número anterior.
+            n2 = sc.nextInt(); // Lee el siguiente número.
 
-            if (n2 - n1 == serie){
-                break;
-            }
-            else{
-                System.out.println("no");
-                return;
+            if (n2 - n1 != serie) { // Comprueba si la diferencia ha cambiado.
+                System.out.println("no"); // Indica que la secuencia no sigue la misma progresión.
+                return; // Termina el programa.
             }
         }
-        System.out.println("si");
+
+        System.out.println("si"); // Si todas las diferencias coinciden, indica que es una progresión.
     }
 }
