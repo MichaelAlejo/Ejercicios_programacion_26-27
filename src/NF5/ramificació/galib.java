@@ -11,13 +11,17 @@ public class galib {
         float altura_p = sc.nextFloat();
         int cont = 1;
 
-        while (altura <= altura_p){
+        // Repetimos mientras la altura del vehículo no supere la altura del puente.
+        while (altura <= altura_p) {
             cont++;
+            // Leemos la altura del siguiente puente.
             altura_p = sc.nextFloat();
-            if (puentes <= cont){
+            // Si hemos llegado al límite de puentes, terminamos el programa.
+            if (puentes <= cont) {
                 return;
             }
         }
-        System.out.println("xoca amb el pont " + cont );
+        // Si salimos del bucle, mostramos el puente con el que choca el vehículo.
+        System.out.println("xoca amb el pont " + cont);
     }
 }
